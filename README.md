@@ -1,6 +1,8 @@
-# Postra skills for Claude
+# Postra skills for AI assistants
 
-Plan, write and schedule social media posts in [Postra](https://postra.co.uk) from Claude. Connect Postra once, then add the skills you want.
+Plan, write and schedule social media posts in [Postra](https://postra.co.uk) from your AI assistant. Connect Postra once, then add the skills you want.
+
+The skills are packaged as Claude skills and were tested with Claude. Each one is a plain text file, so other assistants can use them too: see [Other assistants](#other-assistants).
 
 ## Set up
 
@@ -26,6 +28,15 @@ Plan, write and schedule social media posts in [Postra](https://postra.co.uk) fr
 2. **Add a skill.** In Claude: zip a folder from `skills/`, then open Settings, Capabilities, Skills and upload it. In Claude Code: copy the folder into `~/.claude/skills/`.
 
 3. **Ask.** Type `/` and pick a skill, or ask in your own words: "Plan next week on LinkedIn and Facebook around our spring sale."
+
+## Other assistants
+
+A skill is one Markdown file, `skills/<name>/SKILL.md`. Any assistant that is connected to Postra can follow it.
+
+- **ChatGPT:** add Postra as a connector ([how](https://postra.co.uk/docs/mcp/setup/#chatgpt-and-claude-in-the-browser)), then paste the contents of the `SKILL.md` you want into the instructions of a project, or into the chat before your request.
+- **Cursor, Codex, VS Code and other coding assistants:** connect Postra ([setup for each tool](https://postra.co.uk/docs/mcp/setup/)), then add the `SKILL.md` as a rule or instruction file, or point the assistant at it.
+
+Only the lines at the top of the file between `---` are specific to Claude. The rest is ordinary instructions.
 
 ## Skills
 
