@@ -38,7 +38,7 @@ Other assistants: see [Connect your assistant](https://postra.co.uk/docs/mcp/set
 
 To get new versions later: `/plugin marketplace update postra-skills`, then update the plugin from `/plugin`.
 
-**Claude (web and desktop):** download this repository, zip the folder of the skill you want from `skills/` (the folder itself, not only the file inside it), then open Customize, Skills, and upload the zip. Repeat for each skill you want.
+**Claude (web and desktop):** download the zip of the skill you want from the [latest release](https://github.com/Postra-app/postra-skills/releases/latest), then open Customize, Skills, and upload it. Repeat for each skill you want.
 
 ### 3. Ask
 
