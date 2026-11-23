@@ -1,0 +1,12 @@
+{
+  "name": "postra-skills",
+  "owner": { "name": "Postra" },
+  "description": "Skills for planning, writing and scheduling social media posts in Postra",
+  "plugins": [
+    {
+      "name": "postra-skills",
+      "source": "./",
+      "description": "Plan a week, post everywhere at once, make branded graphics and video posts, check the calendar, fix failed posts and report on channels, through the Postra MCP connector"
+    }
+  ]
+}
