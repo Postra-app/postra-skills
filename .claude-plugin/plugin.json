@@ -1,0 +1,11 @@
+{
+  "name": "postra-skills",
+  "description": "Skills for planning, writing and scheduling social media posts in Postra through its MCP connector",
+  "homepage": "https://postra.co.uk/docs/mcp/",
+  "repository": "https://github.com/Postra-app/postra-skills",
+  "license": "MIT",
+  "author": {
+    "name": "Postra",
+    "url": "https://postra.co.uk"
+  }
+}
